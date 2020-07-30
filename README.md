@@ -17,7 +17,11 @@ Vim has 2 modes
 
 ### Replace
 
-
+- find 'foo', replace with 'bar' in the current line:  `:s/foo/bar/g`
+- find 'foo', replace with 'bar' in the entire file:  `:%s/foo/bar/g`
+- find 'foo', replace with 'bar' in file with confirmation: `:%s/foo/bar/gc`
+-  case insenstive find 'foo' , replace with 'bar' in file with confirmation: `:%s/foo/bar/gci`
+- 
 
 ### To save a file in Vim and quit the editor
 
